@@ -6,6 +6,6 @@ present in the log file and columns equal to the number of fields present in a s
 
 The first column in dataframe is indexing which is by default when a log file is read.
 
-Based on the requirements the log message, start time,end time and the time difference are calculated.
+Based on the requirements the log message, start time,end time and the time difference are mentioned in the CSV file.
 
 Once the dataframe is created, it will be stored into a csv file format using Dataframe.to_csv()method
